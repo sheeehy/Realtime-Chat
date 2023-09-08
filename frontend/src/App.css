@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,700;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Heebo&family=Raleway:ital,wght@0,700;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@400;600&family=Raleway:ital,wght@0,700;1,500&display=swap');
+
+body {
+  background-image: url('./assets/valley.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+  margin: 0px;
+  font-family: 'Heebo', sans-serif;
+
+}
+
+.background {
+  width: 100vw;
+  height: 100vh;
+  background: rgb(19, 19, 19);
+  display: flex;         
+  justify-content: center; 
+  align-items: center;   
+  flex-direction: row;   
+}
+
+.content-container {
+  display: flex;
+  align-items: center;  
+}
+
+
+
+.form-card {
+  width: 100%;          
+}
+
+
+.form-title { 
+  font-size: 42px; 
+  font-family: 'Heebo', sans-serif;
+  letter-spacing: 0.5px; 
+  color: #e8e8e8; 
+   
+}
+
+.form-subtitle {
+  font-size: 18px;
+  font-family: 'Heebo', sans-serif;
+  letter-spacing: 0.5px;
+  color: #afafaf;
+  padding-bottom: 24px;
+}
+
+.auth {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  padding-bottom: 12px;
+}
+.auth-label {
+  font-family: 'Heebo', sans-serif;
+  position: absolute;
+  top: 8px;
+  left: 18px;
+  font-size: 11px;
+  color: rgb(175, 175, 175);
+
+  width: 100px;
+}
+.auth-input {
+  background-color: #494949;
+  color: white;
+  font-family: 'Heebo', sans-serif;
+  outline: none;
+  border: none;
+  border-radius: 8px;
+  padding: 24px 18px 12px 18px;
+  width: calc(100% - 18px - 18px);
+  margin-bottom: 12px;
+}
+.auth-button {
+  width: 100%;
+  height: 53px;
+  color: white;
+  background-color: #848484;
+  border: none;
+  outline: none;
+  border-radius: 8px;
+  font-family: 'Heebo', sans-serif;
+  cursor: pointer;
+  transition: all .44s ease;
+  -webkit-transition: all .44s ease;
+  -moz-transition: all .44s ease;
+}
+.auth-button:hover { filter: brightness(125%); }
+
+.chat-wrapper {
+
+  margin-left: 10%; 
+  color: white; 
+  background: rgb(43, 47, 60);
+}
+
+.hand-image {
+  height: auto;
+  width: 100px;
+  margin-left: 5vh;   
+}
